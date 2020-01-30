@@ -1,3 +1,10 @@
+"""
+Реализовать функцию, принимающую несколько параметров, описывающих данные
+пользователя: имя, фамилия, год рождения, город проживания, email, телефон. Функция
+должна принимать параметры как именованные аргументы. Реализовать вывод данных о
+пользователе одной строкой.
+"""
+
 def func_for_naming(name, surname, birth_year, city_of_accomoodation,
                      e_mail, phone_number, **kwargs):
     result = f"Full name of user: {name} {surname}, year of birth: {birth_year}, current location: {city_of_accomoodation}," \
