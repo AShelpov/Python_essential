@@ -7,10 +7,10 @@
 from sys import argv
 
 try:
-    working_hours = round(float(argv[1]), 2)
-    wage_rate_per_hour = round(float(argv[2]), 2)
-    premium = round(float(argv[3]), 2)
     if len(argv) == 4:
+        working_hours = round(float(argv[1]), 2)
+        wage_rate_per_hour = round(float(argv[2]), 2)
+        premium = round(float(argv[3]), 2)
         print(f"Your salary for the period equals to: {round(working_hours * wage_rate_per_hour + premium, 2)} USD")
         print(f"\tYou have worked for {working_hours} hours.\n"
               f"\tYour salary rate is {wage_rate_per_hour} USD per hour.\n"
