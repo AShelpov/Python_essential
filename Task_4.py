@@ -14,7 +14,7 @@ for i in user_numbers:
     try:
         list_of_numbers.append(float(i))
     except ValueError:
-        print(f"One of entered symbols is not a number")
+        print(f"NOTE. One or more of entered symbols is not a number")
 
 output_list = [i for i in list_of_numbers if list_of_numbers.count(i) == 1]
 print(output_list)

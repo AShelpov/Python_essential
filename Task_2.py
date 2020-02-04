@@ -13,7 +13,7 @@ for i in user_numbers:
     try:
         list_of_numbers.append(float(i))
     except ValueError:
-        print(f"One of entered symbols is not a number")
+        print(f"NOTE. one or more of entered symbols is not a number")
 
 output_list = [list_of_numbers[i + 1] for i in range(len(list_of_numbers) - 1)\
                if list_of_numbers[i + 1] > list_of_numbers[i]]
