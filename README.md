@@ -1,2 +1,2 @@
 # Python_essential
-While empty tasks for lesson 6
+Have done all tasks for lesson 6
