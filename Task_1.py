@@ -97,7 +97,7 @@ class Matrix:
 
     def __add__(self, other):
         if (self.__i != other.__i) or (self.__j != other.__j):
-            print(f"Can't fold matrix with different shape. "
+            print(f"Can't sum matrix with different shape. "
                   f"Shape of first matrix equals to {self.shape}, of second - {other.shape}.")
         else:
             output = []
